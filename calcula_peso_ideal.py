@@ -24,8 +24,8 @@ Saída:
 ```
  '''
 # Entrada de dados
-altura, sexo = input().split()
-altura = float(altura)
+altura = float(input())
+sexo = input().strip().upper()
 
 # Cálculo do peso ideal
 if sexo == "M":
