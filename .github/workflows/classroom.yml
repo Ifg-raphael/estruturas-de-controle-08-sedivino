@@ -23,7 +23,7 @@ jobs:
         input: |-
           1.75
           F
-        expected-output: '64.98'
+        expected-output: '63.97'
         comparison-method: contains
         timeout: 5
     - name: Caso 2
