@@ -23,14 +23,16 @@ Saída:
 58.32
 ```
  '''
-
+# Entrada de dados
 altura, sexo = input().split()
 altura = float(altura)
 
+# Cálculo do peso ideal
 if sexo == "M":
     peso_ideal = (72.7 * altura) - 58
 elif sexo == "F":
     peso_ideal = (62.1 * altura) - 44.7
 
+# Saída do resultado com duas casas decimais
 print(f"{peso_ideal:.2f}")
 
